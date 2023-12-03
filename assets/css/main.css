@@ -34,4 +34,6 @@
 
 
 /* Projects */
-
+.project p {
+    text-align: justify;
+}
