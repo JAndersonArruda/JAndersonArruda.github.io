@@ -1,0 +1,31 @@
+header {
+    background-color: #000000;
+}
+
+.container-nav {
+    margin: 0 4rem;
+    padding: 1.5rem 0;
+}
+
+.item-nav  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.item-nav a {
+    text-decoration: none;
+    color: #ff960b;
+    padding: 0 .5rem;
+}
+
+.item-nav a:hover {
+    color: #ffc20b;
+    border-bottom: .1rem solid #ffde0b;
+}
+
+.item-nav a li {
+    list-style: none;
+}
