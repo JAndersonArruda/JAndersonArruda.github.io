@@ -1,5 +1,13 @@
 header {
+    background-image: url('../img/test2.gif');
+    font-family: cursive;
+}
+
+nav {
     background-color: #000000;
+    border-bottom: .2rem solid #ffc20b;
+    position: fixed;
+    width: 100%;
 }
 
 .container-nav {
@@ -18,14 +26,22 @@ header {
 .item-nav a {
     text-decoration: none;
     color: #ff960b;
-    padding: 0 .5rem;
+    padding: 0 .5rem .1rem;
 }
 
 .item-nav a:hover {
     color: #ffc20b;
     border-bottom: .1rem solid #ffde0b;
+    padding: 0 .5rem 0;
 }
 
 .item-nav a li {
     list-style: none;
+    font-size: 24px;
+    font-style: initial;
+    font-weight: 600;
+}
+
+canvas {
+    width: 100%;
 }
