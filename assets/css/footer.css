@@ -64,6 +64,7 @@ footer {
     background-color: #232121;
     color: #8a8a8a;
     border-radius: .3rem;
+    cursor: pointer;
 }
 
 .masseger-container div {
