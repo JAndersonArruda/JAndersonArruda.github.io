@@ -1,9 +1,9 @@
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
-    min-height: 70vh;
+    min-height: 91.5vh;
     background-color: #000000;
     color: #8a8a8a;
     font-family: cursive;
@@ -13,14 +13,16 @@ footer {
     border-bottom: .1rem solid #8a8a8a;
     width: 90vw;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .copyright {
     border-top: .1rem solid #8a8a8a;
     width: 70vw;
     text-align: center;
-    padding: .8rem 0 0;
+    padding: 1.3rem 0 0;
     font-size: 20px;
+    margin-bottom: 1.7rem;
 }
 
 .copyright span {
@@ -36,7 +38,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .map {
@@ -55,27 +57,28 @@ footer {
     align-items: center;
 }
 
-.masseger-container {
+.masseger-container a {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 2rem 0;
-    padding: 1rem .5rem;
+    padding: 1rem .8rem;
     background-color: #232121;
     color: #8a8a8a;
+    text-decoration: none;
     border-radius: .3rem;
     cursor: pointer;
 }
 
-.masseger-container div {
+.masseger-container a div {
     padding: 0 .8rem;
 }
 
-.masseger-container div h4 {
+.masseger-container a div h4 {
     margin-bottom: .1rem;
 }
 
-.masseger-container div p {
+.masseger-container a div p {
     margin: 0;
     font-size: 16px;
 }
