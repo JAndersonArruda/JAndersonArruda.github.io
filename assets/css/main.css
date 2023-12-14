@@ -7,32 +7,41 @@ section {
 }
 
 
-/* Opening */
-
-
-
 /* About */
-.containerAbout {
+.container-about {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    margin: 0 9rem;
+    padding: 1rem 2rem;
 }
 
-.imageAbout {
+.container-image-about {
+    min-width: 20vw;
+    margin-right: 5%;
+}
+
+.image-about {
     width: 100%;
     border-radius: 50%;
 }
 
-.formatContainer {
+.container-text-about {
     text-align: justify;
+    text-indent: 2rem;
 }
 
-.formatContainer h1 {
+.title-about {
+    font-family: cursive;
+    text-align: center;
     border-bottom: .1rem solid #000000;
-    padding-bottom: .3rem;
+    padding-bottom: .1rem;
     margin-bottom: 1rem;
 }
 
-.formatContainer p {
-    text-indent: 1.5rem;
+.text-about {
+    margin: 0 1.5rem .9rem;
+    line-height: 1.8;
 }
 
 
