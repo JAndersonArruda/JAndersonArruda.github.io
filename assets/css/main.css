@@ -122,11 +122,18 @@ section {
     margin: 1rem 0;
     padding: 1rem;
     border-radius: .4rem;
+    cursor: pointer;
+}
+
+.card-project img {
+    border-radius: .4rem .4rem 0 0;
+    width: 100%;
+    margin-bottom: .5rem;
 }
 
 .title-card-project {
     text-align: center;
-    margin-bottom: .8rem;
+    margin: .8rem 0;
     padding-bottom: .5rem;
     border-bottom: .1rem solid #8a8a8a;
 }
