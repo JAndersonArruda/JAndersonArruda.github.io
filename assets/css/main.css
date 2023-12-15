@@ -27,7 +27,7 @@ section {
     flex-direction: row;
     align-items: center;
     min-height: 100vh;
-    padding: 1rem 6rem;
+    padding: 8rem 6rem;
     background-color: #000000;
     color: #8a8a8a;
 }
@@ -59,7 +59,7 @@ section {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 1rem 6rem;
+    padding: 8rem 6rem;
     background-color: #000000;
     color: #8a8a8a;
 }
@@ -105,7 +105,19 @@ section {
 
 
 /* Projects */
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 8rem 6rem;
+    background-color: #000000;
+    color: #8a8a8a;
+}
 
 
 
-
+.project p {
+    line-height: 1.8;
+    text-align: justify;
+    margin: .4rem 1rem;
+}
