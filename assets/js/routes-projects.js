@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const astronnebula = document.querySelector("#project-astronnebula");
     const pokedex = document.querySelector("#project-pokedex");
     const distributionGraph = document.querySelector("#project-distribution-graph");
     const script = document.querySelector("#project-script");
@@ -10,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const movieStore = document.querySelector("#project-movie-store");
     const calEa = document.querySelector("#project-calEa");
     const bookcase = document.querySelector("#project-bookcase");
+
+    astronnebula.addEventListener("click", () => {
+        window.open('https://github.com/JAndersonArruda/AstronNebula', '_blank');
+    });
 
     pokedex.addEventListener("click", () => {
         window.open('https://github.com/JAndersonArruda/projeto-final-cleanbug-PokeDex', '_blank');
