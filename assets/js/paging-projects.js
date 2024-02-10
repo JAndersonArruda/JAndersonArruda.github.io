@@ -4,7 +4,7 @@ const dataProjects = [
         name: "AstronNebula",
         description: "O AstronNebula utiliza agumas APIs para manipulação de dados autenticos, em tempo real. Tem por finalidade permitir o a aceeso visual à fotos, vídios e datas relacionadas a astronomia.",
         alt: "Imagem representativa do projeto AstronNebula",
-        links: ["./assets/img/thumbnail/astronnebula.png"]
+        links: ["./assets/img/thumbnail/astronNebula/astronnebula.png", "./assets/img/thumbnail/astronNebula/astron-calendar.png", "./assets/img/thumbnail/astronNebula/astron-gallery.png", "./assets/img/thumbnail/astronNebula/astron-details-gallery.png"]
     },
     {
         id: "project-pokedex",
@@ -86,7 +86,7 @@ const dataProjects = [
 ];
 
 const loopID = (id, links) => {
-    if (id === links.length -1) return 0;
+    if (id === links.length) return 0;
     return id ++;
 }
 
