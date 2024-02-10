@@ -1,5 +1,5 @@
 main {
-    background-color: #1a1818;
+    background-color: #0b0a0a;
 }
 
 section {
@@ -28,7 +28,6 @@ section {
     align-items: center;
     min-height: 100vh;
     padding: 8rem 6rem;
-    background-color: #000000;
     color: #8a8a8a;
 }
 
@@ -61,7 +60,6 @@ section {
     flex-direction: column;
     min-height: 100vh;
     padding: 8rem 6rem;
-    background-color: #000000;
     color: #8a8a8a;
 }
 
@@ -112,7 +110,6 @@ section {
     flex-direction: column;
     min-height: 100vh;
     padding: 8rem 6rem;
-    background-color: #000000;
     color: #8a8a8a;
 }
 
