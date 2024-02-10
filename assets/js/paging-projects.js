@@ -4,7 +4,7 @@ const dataProjects = [
         name: "AstronNebula",
         description: "O AstronNebula utiliza agumas APIs para manipulação de dados autenticos, em tempo real. Tem por finalidade permitir o a aceeso visual à fotos, vídios e datas relacionadas a astronomia.",
         alt: "Imagem representativa do projeto AstronNebula",
-        links: ["./assets/img/thumbnail/astronNebula/astronnebula.png", "./assets/img/thumbnail/astronNebula/astron-calendar.png", "./assets/img/thumbnail/astronNebula/astron-gallery.png", "./assets/img/thumbnail/astronNebula/astron-details-gallery.png"]
+        links: ["./assets/img/thumbnail/astronNebula/astronnebula.png", "./assets/img/thumbnail/astronNebula/astron-calendar.png", "./assets/img/thumbnail/astronNebula/astron-gallery.png", "./assets/img/thumbnail/astronNebula/astron-details-gallery.png", "./assets/img/thumbnail/astronNebula/astron-about.png"]
     },
     {
         id: "project-pokedex",
@@ -86,14 +86,14 @@ const dataProjects = [
 ];
 
 const loopID = (id, links) => {
-    if (id === links.length) return 0;
-    return id ++;
+    console.log(links.length);
+    if (id === links.length -1) return 0;
+    return ++id;
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
     const cardContent = document.querySelector(".container-projects-cards");
 
-    let id = 0;
     cardContent.replaceChildren();
     dataProjects.forEach(project => {
         const contentProject = document.createElement("div");
@@ -101,6 +101,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const contentTextProject = document.createElement("div");
         const titleProject = document.createElement("h4");
         const descriptionProject = document.createElement("p");
+
+        let id = 0;
 
         setInterval(() => {
             console.log("antes" + id);
