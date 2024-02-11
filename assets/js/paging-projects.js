@@ -11,21 +11,21 @@ const dataProjects = [
         name: "PokéDex",
         description: "O PokéDex é um site desenvolvido com Django, no qual faz uso de uma API para renderizar os dados de cada pokémon, sendo uma API vasta, por conter varios diretorios de daods.",
         alt: "Imagem representativa do projeto PokéDex",
-        links: ["./assets/img/thumbnail/pokedex.png"]
+        links: ["./assets/img/thumbnail/pokeDex/pokedex.png", "./assets/img/thumbnail/pokeDex/poke-details.png", "./assets/img/thumbnail/pokeDex/poke-about.png"]
     },
     {
         id: "project-distribution-graph",
         name: "Gráfico de Distribuição de Probabilidade",
         description: "O referente projeto é caracteristico por gerar dois gráficos de distribuição de probabilidade binômial. O 1° representa a distribuição normal e o 2° representa a distribuição acumulada.",
         alt: "Imagem representativa do projeto Gráfico de Distribuição de Probabilidade",
-        links: ["./assets/img/thumbnail/distribution-graph.png"]
+        links: ["./assets/img/thumbnail/distributionGraph/distribution-graph.png", "./assets/img/thumbnail/distributionGraph/distribution.png", "./assets/img/thumbnail/distributionGraph/distribution-binomion.png", "./assets/img/thumbnail/distributionGraph/distribution-acumulate.png"]
     },
     {
         id: "project-script",
         name: "Projeto Script",
         description: "Este projeto foi desenvolvido visando organizar as avalições de forma catégorica da Cadeira Linguegem de Script do CST em Análise e Desenvolvimmento de Sistemas.",
         alt: "Imagem representativa do projeto Projeto Script",
-        links: ["./assets/img/thumbnail/script.png"]
+        links: ["./assets/img/thumbnail/scriptProject/script.png", "./assets/img/thumbnail/scriptProject/script-films.png", "./assets/img/thumbnail/scriptProject/script-account-bank.png", "./assets/img/thumbnail/scriptProject/script-transaction-bank.png"]
     },
     {
         id: "project-game-list",
