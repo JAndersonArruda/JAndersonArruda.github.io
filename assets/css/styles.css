@@ -52,9 +52,33 @@
 }
 
 @media (max-width: 530px) {
+    .container-nav {
+        margin: 0;
+        padding: 1.5rem 2rem;
+    }
+
+    .item-nav {
+        /* display: none;  */
+        flex-direction: column;
+    }
+
     .container-about, .container-skills, .container-projects {
         min-width: 100vw;
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+
+    .text-about {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .map div {
+        width: 94.6vw;
+        height: 41.365vh;
+    }
+
+    .card-project {
+        width: auto;
     }
 }
