@@ -32,7 +32,7 @@ const dataProjects = [
         name: "Game List",
         description: "O projeto Game List foi idealizado pela Empresa Junior LOOPIS, apresentado como desáfio de seleção de novos membros/trainee. Sua maior caracteristica é fazer uso do LocalStorage.",
         alt: "Imagem representativa do projeto Game List",
-        links: ["./assets/img/thumbnail/game-list.png"]
+        links: ["./assets/img/thumbnail/gameList/game-list.png", "./assets/img/thumbnail/gameList/game-add-1.png", "./assets/img/thumbnail/gameList/game-add-2.png", "./assets/img/thumbnail/gameList/game-remove-favorite.png", "./assets/img/thumbnail/gameList/game-delete.png"]
     },
     {
         id: "project-flask-recipe",
@@ -46,28 +46,28 @@ const dataProjects = [
         name: "Carina Web",
         description: "O Carina Web é site desenvolvido com Django, com o intuito de mostrar um pouco das belezas do universo. Caracteristico por obter dados de consultas em APIs disponibilizadas pela NASA.",
         alt: "Imagem representativa do projeto ",
-        links: ["./assets/img/thumbnail/carina-web.png"]
+        links: ["./assets/img/thumbnail/carinaWeb/carina-web.png", "./assets/img/thumbnail/carinaWeb/carina-register.png", "./assets/img/thumbnail/carinaWeb/carina-login.png", "./assets/img/thumbnail/carinaWeb/carina-user.png", "./assets/img/thumbnail/carinaWeb/carina-gallery.png", "./assets/img/thumbnail/carinaWeb/carina-contact.png", "./assets/img/thumbnail/carinaWeb/carina-about.png"]
     },
     {
         id: "project-business-card",
         name: "Cartão de Visita",
         description: "O cartão de visita é um site voltado para utilização de recursos a proporcinar a manipulação das coordenadas da tela e design, possuindo como conteúdo informações de contato.",
         alt: "Imagem representativa do projeto Cartão de Visita",
-        links: ["./assets/img/thumbnail/cartao.png"]
+        links: ["./assets/img/thumbnail/businessCard/card-one.png", "./assets/img/thumbnail/businessCard/card-two.png"]
     },
     {
         id: "project-mario",
         name: "Mario",
         description: "Neste projeto foi possivil utilizar de forma avancada alguns recursos em CSS e Javascript para tornar o site interarivo,tornando posssi uma dinamica parecida com o jogo Super Mario.",
         alt: "Imagem representativa do projeto Mario",
-        links: ["./assets/img/thumbnail/mario.png"]
+        links: ["./assets/img/thumbnail/mario/mario-init.png", "./assets/img/thumbnail/mario/mario-start.png", "./assets/img/thumbnail/mario/mario-up.png", "./assets/img/thumbnail/mario/mario-over.png"]
     },
     {
         id: "project-movie-store",
         name: "Locadora de Filmes",
         description: "Neste projeto desenvolvido com HTML, CSS e JavaScript foi possivel implementar alguns conhecimentos e ferramentas de framework, juntamente com novos metodos e funções em JavaScript.",
         alt: "Imagem representativa do projeto Locadora de Filmes",
-        links: ["./assets/img/thumbnail/locadora.png"]
+        links: ["./assets/img/thumbnail/movieStore/movie-store.png", "./assets/img/thumbnail/movieStore/movie-add-1.png", "./assets/img/thumbnail/movieStore/movie-add-2.png"]
     },
     {
         id: "project-calEa",
@@ -81,7 +81,7 @@ const dataProjects = [
         name: "Estante de Livros",
         description: "Primeiro projeto com HTML e CSS no curso do Zero ao Primeiro Site ofertado pelo grupo +praTi. Neste projto consegui implementar alguns conhecimentos em CSS, que adiquiri em minha formação.",
         alt: "Imagem representativa do projeto Estante de Livros",
-        links: ["./assets/img/thumbnail/estante.png"]
+        links: ["./assets/img/thumbnail/bookcase/bookcase.png", "./assets/img/thumbnail/bookcase/bookcase-book-1.png", "./assets/img/thumbnail/bookcase/bookcase-book-2.png"]
     }
 ];
 
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             imgProject.src = project.links[id];
             id = loopID(id, project.links);
             console.log("depois" + id);
-        }, 3000);
+        }, 4500);
         
         imgProject.alt = project.alt;
         imgProject.classList.add("card-img-top");
