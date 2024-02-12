@@ -2,3 +2,59 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 1495px) {
+    .container-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-about-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title-about {
+        display: none;
+    }
+
+    .container-image-about, .container-text-about {
+        margin: 3rem 0 0;
+    }
+
+    .container-image-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-about {
+        width: 40%;
+    }
+}
+
+@media (max-width: 980px) {
+    .container-about, .container-skills, .container-projects {
+        min-width: 100vw;
+        padding-left:6rem;
+        padding-right: 6rem;
+    }
+
+    .container-contact {
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .map {
+        margin: 0 0 2rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .container-about, .container-skills, .container-projects {
+        min-width: 100vw;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

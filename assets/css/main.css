@@ -11,7 +11,7 @@ section {
     margin: 0 9rem;
 }
 
-.title-about, .title-skills, .title-projects {
+.title-about, .title-about-section, .title-skills, .title-projects {
     font-family: cursive;
     font-weight: 600;
     text-align: center;
@@ -29,6 +29,10 @@ section {
     min-height: 100vh;
     padding: 8rem 6rem;
     color: #8a8a8a;
+}
+
+.title-about-section {
+    display: none;
 }
 
 .container-image-about {
