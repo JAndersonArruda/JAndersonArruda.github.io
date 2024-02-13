@@ -52,20 +52,43 @@
 }
 
 @media (max-width: 530px) {
+    nav {
+        border-bottom: .1rem solid #ffc20b;
+    }
+
     .container-nav {
         margin: 0;
-        padding: 1.5rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .content-icon-menu {
+        display: flex;
+        padding: .5rem;
     }
 
     .item-nav {
-        /* display: none;  */
+        display: none; 
         flex-direction: column;
+        padding: .5rem;
+    }
+
+    .item-nav a li {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .welcome h1 {
+        font-size: 33px;
+    }
+    
+    .welcome p {
+        font-size: 22px;
     }
 
     .container-about, .container-skills, .container-projects {
         min-width: 100vw;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .text-about {

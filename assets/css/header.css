@@ -16,6 +16,12 @@ nav {
     padding: 1.5rem 0;
 }
 
+.content-icon-menu {
+    display: none;
+    color: #ff960b;
+    font-size: 25px;
+}
+
 .item-nav  {
     display: flex;
     flex-direction: row;
