@@ -86,7 +86,6 @@ const dataProjects = [
 ];
 
 const loopID = (id, links) => {
-    console.log(links.length);
     if (id === links.length -1) return 0;
     return ++id;
 }
@@ -105,10 +104,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         let id = 0;
 
         setInterval(() => {
-            console.log("antes" + id);
             imgProject.src = project.links[id];
             id = loopID(id, project.links);
-            console.log("depois" + id);
         }, 4500);
         
         imgProject.alt = project.alt;
